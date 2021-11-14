@@ -24,6 +24,10 @@ def colorz(img, origin, filename, outdir, parser, n=3):
     counts = Counter(labels)
     center_colors = clf.cluster_centers_
     hex_colors = [RGB2HEX(center_colors[i]) for i in counts.keys()]
+    if parser.show:
+        plt.scatter(img[:,0], img[:,1], c=labels)  
+        plt.scatter(center_colors[:,0] , center_colors[:,1] , color = 'black')
+        plt.show()
     create_palette(hex_colors, origin, filename, outdir, parser, n)
 
 def paste_image(background, image):
