@@ -19,7 +19,7 @@ def colorz(img, origin, filename, outdir, parser, n=3):
         plt.show()
     img.thumbnail((200, 200))
     img = np.array(img.getdata()).reshape(img.size[0]*img.size[1], 3)
-    clf = KMeans(n_clusters = n)
+    clf = KMeans(n_clusters = n, init='k-means++')
     labels = clf.fit_predict(img)
     counts = Counter(labels)
     center_colors = clf.cluster_centers_
@@ -35,7 +35,7 @@ def paste_image(background, image):
     return ImageDraw.Draw(background)
 
 def change_font(size,n):
-    return ImageFont.truetype("OpenSans-Regular.ttf", int(round(size/n)/8))
+    return ImageFont.truetype("OpenSans.ttf", int(round(size/n)/8))
 
 def change_color_text(color):
     rgb = HEX2RGB(color)

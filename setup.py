@@ -1,8 +1,11 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='image-to-palette',
     version='1.1.1',
+    author="Urij Horuzij",
+     description="This is a test package.",
+     url="https://github.com/UrijHoruzij/image-to-palette",
     install_requires=[
         "argparse",
         "Pillow",

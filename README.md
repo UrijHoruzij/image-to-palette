@@ -1,14 +1,27 @@
-# Image-To-Palette
+<p align="center">
+  <img src="./assets/logo.svg" alt="Image-To-Palette logo" width="168" height="128">
+  <h1 align="center">Image-To-Palette</h1>
+</p>
+<p align="center">
+  </p>
 
 This script allows you to generate a color palette from an image.
 
-![Generate pallete 1](palette-1.jpg)
+![Generate pallete 1](./assets/palette-1.jpg)
 
-![Generate pallete 2](palette-2.jpg)
+![Generate pallete 2](./assets/palette-2.jpg)
 
-![Generate pallete 3](palette-3.jpg)
+![Generate pallete 3](./assets/palette-3.jpg)
 
-## Setup
+## Getting Started
+
+To get started, use the following command:
+
+```bash
+python main.py
+```
+
+## Dependencies
 
 This program has the following dependencies:
 
@@ -19,6 +32,6 @@ This program has the following dependencies:
 - scikit-learn
 - numpy
 
-To install, run setup.py
+## License
 
-` python setup.py`
+Image-To-Palette is released under the [MIT License](https://github.com/UrijHoruzij/image-to-palette/LICENSE.md).
