@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo.jpg" alt="Image-To-Palette logo" width="168" height="128">
+  <img src="./assets/logo.jpg" alt="Image-To-Palette logo" width="190" height="129">
   <h1 align="center">Image-To-Palette</h1>
 </p>
 <p align="center">
