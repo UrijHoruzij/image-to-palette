@@ -34,4 +34,4 @@ This program has the following dependencies:
 
 ## License
 
-Image-To-Palette is released under the [MIT License](https://github.com/UrijHoruzij/image-to-palette/LICENSE.md).
+Image-To-Palette is released under the [MIT License](https://github.com/UrijHoruzij/image-to-palette/blob/master/LICENSE).
