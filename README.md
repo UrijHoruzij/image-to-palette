@@ -3,7 +3,11 @@
   <h1 align="center">Image-To-Palette</h1>
 </p>
 <p align="center">
-  </p>
+    <a aria-label="License" href="https://github.com/UrijHoruzij/image-to-palette/blob/master/LICENSE">
+      <img alt="GitHub" src="https://img.shields.io/github/license/UrijHoruzij/image-to-palette?color=f4692b">
+    </a>
+    
+ </p>
 
 This script allows you to generate a color palette from an image.
 
